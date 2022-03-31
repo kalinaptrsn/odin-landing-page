@@ -22,6 +22,7 @@ body {
 figcaption {
     align-self: flex-end;
     font-weight: bolder;
+    padding-right: 200px;
 }
 
 p {
@@ -112,9 +113,11 @@ ul {
     font-weight: 700;
     text-align: center;
 }
+
 .navbar {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .text {
@@ -126,6 +129,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
     padding: 60px;
 }
 
@@ -155,4 +159,11 @@ ul {
     justify-content: center;
     background-color: #E5E7EB;
     padding: 80px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    text-align: center;
 }
